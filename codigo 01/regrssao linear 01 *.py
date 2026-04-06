@@ -32,7 +32,6 @@ class LinearRegresion:
     
     def previsao(self, valor):
         return self.__intercept + (self.__inclination * valor)
-
 x = array([1,2,3,4,5])
 y = array([2,4,6,8,10])
 lr = LinearRegresion(x,y)
