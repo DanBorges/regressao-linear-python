@@ -11,8 +11,8 @@ base.shape
 base = base.drop(['Unnamed: 0'], axis=1)
 #print(base.head())
 
-corr = base.corr()
-sns.heatmap(corr, cmap='coolwarm', annot=True, fmt='.2f')
+corr = base.corr() #Gerar uma correlação de todos os dados
+sns.heatmap(corr, cmap='coolwarm', annot=True, fmt='.2f') # Gerar o gráfico do seaborn
 #plt.show()
 
 column_pairs = [('mpg', 'cyl'),('mpg', 'disp'),('mpg', 'hp'),('mpg', 'wt'),('mpg', 'drat'),('mpg', 'vs')]

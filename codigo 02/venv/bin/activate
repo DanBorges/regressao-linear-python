@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/daniel/Desktop/UFV/curso udemy/codigo 02/venv'
+VIRTUAL_ENV='/home/daniel/Desktop/UFV/curso udemy/codigos/codigo 02/venv'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
